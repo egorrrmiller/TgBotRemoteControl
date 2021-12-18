@@ -11,7 +11,7 @@ public class PauseVideoCommand : ICommand
     {
         if (update.CallbackQuery != null)
         {
-            return Task.FromResult(update.CallbackQuery.Data.Contains(ControlEnum.Pause.ToString()));
+            return Task.FromResult(update.CallbackQuery.Data.Contains(ControlEnum.VideoPause.ToString()));
         }
 
         return Task.FromResult(false);

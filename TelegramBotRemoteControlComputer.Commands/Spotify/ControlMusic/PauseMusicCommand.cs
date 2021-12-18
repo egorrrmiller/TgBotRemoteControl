@@ -13,7 +13,7 @@ public class PauseMusicCommand : ICommand
     {
         if (update.CallbackQuery != null)
         {
-            return Task.FromResult(update.CallbackQuery.Data.Contains(SpotifyEnum.Pause.ToString()));
+            return Task.FromResult(update.CallbackQuery.Data.Contains(SpotifyEnum.MusicPause.ToString()));
         }
 
         return Task.FromResult(false);

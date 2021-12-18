@@ -14,7 +14,7 @@ public static class SpotifyControlKeyboard
         },
         new []
         {
-            InlineKeyboardButton.WithCallbackData("Пауза", SpotifyEnum.Pause.ToString())
+            InlineKeyboardButton.WithCallbackData("Пауза", SpotifyEnum.MusicPause.ToString())
         }
     };
     

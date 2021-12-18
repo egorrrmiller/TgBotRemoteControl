@@ -14,7 +14,7 @@ public class Keyboards
         },
         new []
         {
-            InlineKeyboardButton.WithCallbackData("Нажать пробел", ControlEnum.Pause.ToString())
+            InlineKeyboardButton.WithCallbackData("Нажать пробел", ControlEnum.VideoPause.ToString())
         }
     };
 }

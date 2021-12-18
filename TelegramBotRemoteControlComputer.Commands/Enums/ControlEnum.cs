@@ -3,5 +3,5 @@
 public enum ControlEnum
 {
     TurnOff,
-    Pause
+    VideoPause
 }

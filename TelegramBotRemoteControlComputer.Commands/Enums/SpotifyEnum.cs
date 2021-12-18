@@ -4,6 +4,6 @@ public enum SpotifyEnum
 {
     Next,
     Previous,
-    Pause,
+    MusicPause,
     Continue
 }
