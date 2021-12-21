@@ -14,7 +14,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\TelegramBotRemoteControlComputer.Commands\TelegramBotRemoteControlComputer.Commands.csproj" />
+      <ProjectReference Include="..\TgBotRemoteControl.Commands\TgBotRemoteControl.Commands.csproj" />
     </ItemGroup>
 
 </Project>
