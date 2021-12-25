@@ -1,10 +1,9 @@
 ﻿using Telegram.Bot;
 using Telegram.Bot.Types;
-using TelegramBotRemoteControlComputer.Control.Commands;
 using TelegramBotRemoteControlComputer.Control.Enums;
 using WinAPI;
 
-namespace TelegramBotRemoteControlComputer.Control.Videos;
+namespace TelegramBotRemoteControlComputer.Control.Commands;
 
 public class PauseVideoCommand : ICommand
 {
@@ -12,9 +11,8 @@ public class PauseVideoCommand : ICommand
     {
         if (update.CallbackQuery != null)
         {
-            return Task.FromResult(update.CallbackQuery.Data.Contains(VideoEnum.VideoPause.ToString()));
+            return Task.FromResult(update.CallbackQuery.Data.Contains(ControlEnum.VideoPause.ToString()));
         }
-        
 
         return Task.FromResult(false);
     } 
