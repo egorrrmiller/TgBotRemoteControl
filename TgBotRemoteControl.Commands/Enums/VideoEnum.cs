@@ -1,8 +1,6 @@
 ﻿namespace TelegramBotRemoteControlComputer.Control.Enums;
 
-public enum ControlEnum
+public enum VideoEnum
 {
-    TurnOff,
-    Hibernate,
-    Cancel
+    VideoPause
 }

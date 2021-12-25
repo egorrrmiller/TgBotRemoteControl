@@ -18,7 +18,8 @@ public class ReplyButtonsCommand : ICommand
     {
         ReplyKeyboardMarkup replyKeyboardMarkup = new ReplyKeyboardMarkup(new[]
         {
-            new KeyboardButton[] {"/start", "/music"}
+            new KeyboardButton[] {"/start", "/music"},
+            new KeyboardButton[] {"/video"}
         })
         {
             ResizeKeyboard = true
